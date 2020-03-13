@@ -1,0 +1,417 @@
+html,
+body {
+    font-family: 'Avenir LT Std';
+    font-style: normal;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    color: #000004;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    overflow-x: hidden;
+    letter-spacing: 0.1px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Avenir LT Std';
+    font-weight: 900;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+a:hover:active:focus:focus-within,
+a:hover,
+a {
+    text-decoration: none;
+	outline: 0;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+:root {
+	--menu-font: 'Avenir LT Std';
+	--default: #48c2c5;
+	--theme: #2f2f2f;
+	--white: #fff;
+	--black: #000;
+	--red: #f00;
+}
+
+.enqform-section .custom-select {
+    background: transparent url(../img/ic_arrow_white.png) no-repeat;
+	background-size: 18px;
+	background-position: right 2px center;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border-right: 0;
+	border: 1px solid #c0c0c0;
+    border-right: 0;
+    min-width: 55px;
+    padding: 0 2px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.enqform-section .btn-submit {
+    background: var(--default);
+    display: inline-block;
+    color: var(--white);
+    padding: 10px 50px;
+    margin: 5px 0 0;
+    border-radius: 3px;
+}
+.enqform-section .enq-form .form-control.brl-0 {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.enqform-section .input-group-prepend {
+    display: -ms-flexbox;
+    display: flex;
+}
+.enqform-section .input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+.enqform-section h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 28px;
+    margin: 0 0 15px;
+}
+.enqform-section .form-group sup {
+	color: var(--red);
+	position: relative;
+	top: 3px;
+	left: -2px;
+}
+.enqform-section .form-group {
+	margin: 0 0 10px;
+}
+.enqform-section .enq-form label {
+    display: block;
+    margin: 0 0 0px;
+}
+.enqform-section .enq-form .form-control {
+    border: 1px solid #c0c0c0;
+    border-radius: 3px;
+    width: 100%;
+    min-height: 40px;
+    padding: 0 10px;
+    font-size: 14px;
+	-ms-flex: 1 1 0%;
+	flex: 1 1 0%;
+	min-width: 0;
+	padding: .375rem .75rem;
+}
+.enqform-section {
+    padding: 40px 0;
+    background-color: #f4f4f4;
+}
+.enqform-section .enq-container {
+    max-width: 40%;
+    width: 100%;
+    margin: 0 auto;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+	background: var(--white);
+	padding: 20px 20px;
+}
+.four-season .site-logo {
+    top: 90px;
+    left: 50%;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    position: absolute;
+    max-width: 300px;
+    width: 100%;
+    z-index: 1;
+}
+.four-season .pict-overlay {
+    position: absolute;
+    bottom: 100px;
+	left: 60px;
+    width: 70%;
+    z-index: 9;
+}
+.four-season .pict-overlay.text-right {
+    position: absolute;
+    bottom: 100px;
+	left: 0px;
+	width: 46%;
+	z-index: 9;
+	text-align: right;
+}
+.four-season.the-club .pict-overlay.text-right {
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+    width: 50%;
+    z-index: 9;
+    text-align: right;
+    height: 50%;
+    padding: 15px;
+    padding-right: 90px;
+}
+
+.four-season .btn-explore {
+    border: solid 1px var(--white);
+	padding: 5px 30px 8px; 
+	color: var(--white);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    -webkit-transition: all,1s;
+    transition: all,1s;
+    margin-left: 40px;
+	text-align: center;
+}
+.four-season .btn-explore:hover {
+	background: var(--white);
+	color: var(--theme);
+}
+.first-section .pict-text p {
+    font-size: 14px;
+    line-height: 22px;
+	font-style: normal;
+}
+.inner-bottom-content-right {
+    display: block;
+    border-left: solid 1px white;
+    position: absolute;
+    width: 50%;
+    right: 0;
+    bottom: 0;
+    height: 43.5%;
+}
+.left-line {
+	position: absolute;
+    right: 100%;
+    top: 0px;
+    width: 50px;
+    height: 1px;
+    background: white;
+    margin: 0 auto;
+}
+.first-section .standalone-text p {
+    font-size: 18px;
+}
+.first-section .standalone-text {
+    position: absolute;
+    bottom: 108px;
+    width: 50%;
+    right: -10px;
+}
+.first-section .pict-overlay h3 {
+	font-size: 40px;
+	line-height: 60px;
+}
+.first-section:before {
+	background: rgba(0,0,0,0.5);
+    width: 100%;
+    position: absolute;
+	content: "";
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.first-section {
+	position: relative;	
+	max-height: 750px;
+	overflow: hidden;
+}
+.first-section h3, .first-section p {
+	color: var(--white);
+	margin: 0 0 0;
+	font-style: italic;
+}
+.first-section p {
+	font-size: 25px;
+	margin: 0 0 0;
+	line-height: 30px;
+}
+.four-season.grand-entry .pict-overlay p {
+    font-size: 15px;
+    line-height: 22px;
+	font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*** Media Queries ***/
+
+@media (max-width: 1199px) {
+
+.four-season.the-club .pict-overlay.text-right {
+	height: 45%;
+}
+.inner-bottom-content-right {
+	height: 38.5%;
+}
+.four-season .pict-overlay, .first-section .standalone-text, .four-season .pict-overlay.text-right {
+	bottom: 50px;
+}
+.four-season.the-club .pict-overlay.text-right {
+	padding-right: 80px;
+}
+.first-section .pict-overlay h3 {
+    font-size: 32px;
+    line-height: 40px;
+}
+.enqform-section .enq-container {
+    max-width: 60%;
+}
+	
+}
+@media (max-width: 991px) {
+.four-season .site-logo {
+	max-width: 250px;
+}
+.first-section .standalone-text p {
+    font-size: 15px;
+}
+.first-section .standalone-text {
+    bottom: 35px;
+    right: -20px;
+}
+.inner-bottom-content-right {
+	height: 58%;
+}
+.inner-bottom-content-right .left-line {
+	width: 40px;
+}
+.four-season.the-club .pict-overlay.text-right {
+	height: 65%;
+}
+.first-section p {
+    font-size: 20px;
+    line-height: 22px;
+}
+.four-season .pict-overlay.text-right {
+	bottom: 30px;
+}	
+.first-section .pict-overlay h3 {
+    font-size: 25px;
+    line-height: 40px;
+}
+.four-season .pict-overlay {
+	position: absolute;
+	bottom: 30px;
+	left: 50px;
+	max-width: 100%;
+	z-index: 9;
+	right: 50px;
+}		
+}
+
+@media (max-width: 767px) {
+
+.first-section .standalone-text p {
+	font-size: 13px;
+}
+.first-section .standalone-text {
+	position: relative;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+	width: 100%;
+	background: var(--black);
+	padding: 0 20px 40px;
+}
+.four-season .pict-overlay.text-right {
+	position: relative;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	padding: 40px 20px 0;
+}
+.inner-bottom-content-right .left-line {
+	display: none;
+}
+.inner-bottom-content-right {
+    height: auto;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    border: 0;
+    background: var(--black);
+    padding: 0 0 40px;
+}
+.four-season .btn-explore {
+	margin-left: 0;
+}
+.four-season.the-club .pict-overlay.text-right {
+	position: relative;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: left;
+	padding: 40px 20px;
+	height: auto;
+}
+.enqform-section {
+    padding: 25px 0;
+}
+.enqform-section h3 {
+	font-size: 22px;
+	margin: 0 0 10px;
+}
+.enqform-section .form-group {
+    margin: 0 0 8px;
+}
+.enqform-section .enq-container {
+    max-width: 90%;
+    margin: 15px auto;
+    padding: 15px 15px;
+}
+.first-section .pict-overlay h3 {
+    font-size: 18px;
+    line-height: 35px;
+}	
+.four-season .pict-overlay {
+	position: relative;
+	background: var(--black);
+	width: 100%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 40px 20px;
+}
+}
