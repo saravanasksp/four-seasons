@@ -1,0 +1,27 @@
+{
+  "name": "static",
+  "version": "1.0.0",
+  "description": "This is a static template with no bundling",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://codesandbox.io/s/github/saravanasksp/four-seasons.git"
+  },
+  "keywords": [
+    "template",
+    "codesandbox",
+    "static"
+  ],
+  "author": "Ives van Hoorne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://codesandbox.io/s/github/saravanasksp/four-seasons/issues"
+  },
+  "homepage": "https://codesandbox.io/s/github/saravanasksp/four-seasons#readme",
+  "devDependencies": {
+    "serve": "^11.2.0"
+  }
+}
